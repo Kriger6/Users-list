@@ -95,8 +95,7 @@ export default class Input extends PureComponent {
             filteredObjectIndex.forEach(element => listToBeModified.splice(element, 1))
             
             
-            this.setState({list: [...listToBeModified]}, () => {console.log(this.state);
-            })
+            this.setState({list: [...listToBeModified]})
             
             
             
